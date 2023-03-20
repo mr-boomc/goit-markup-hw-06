@@ -371,6 +371,7 @@ button {
     width: 168px;
     height: 88px;
     border: 1px solid #8E8F99;
+    border-radius: 4px;
 }
 .customers-item:hover  {
     border-color: var(--hover-color);
@@ -591,7 +592,7 @@ button {
 /*------------ footer form ---------------*/
 
 .footer-form {
-    margin-left: 80px;
+    margin-left: auto;
 }
 
 .footer-form-title {
@@ -673,9 +674,9 @@ button {
     left: 50%;
     transform: translate(-50%, -50%);
 
-    padding: 40px;
+    padding: 72px 24px 24px 24px;
     width: 408px;
-    height: 576px;
+    border-radius: 4px;
     background-color: #FCFCFC;
 }
 .modal-close-btn {
@@ -713,11 +714,11 @@ button {
 }
 .modal-form-title {
     Font-size: 16px; 
-    Line-height: 1.28;
+    line-height: 1.28;
+    font-weight: 500;
     margin-bottom: 24px;
-    margin-top: 24px;
     color: var(--color-navy-blue);
-    
+    text-align: center;
 }
 
 .modal-form-field {
@@ -809,7 +810,7 @@ button {
     border: transparent;
 }
 .modal-form-check:focus + .modal-form-check-desc::before {
-    border: 1px solid rgba(0, 0, 255, 0.5);
+    outline: 2px solid  rgba(0, 0, 255, 0.5);
 }
 .modal-form-policy {
     font-size: 12px;
